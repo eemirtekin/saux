@@ -1,15 +1,12 @@
-Overview
+Sakarya Üniversitesi SAUX (Open edX)
 ========
-This directory stores a default theme for an Open edX instance.
+Sakarya Üniversitesi Open edX platformu için şablon çalışmasıdır.
 
-We've organized the tree to mimic the directory structure of the edX
-codebase so that it's easy to tell where the files will end up upon
-deploy. We'll use a special settings file to set the template and
-staticfiles paths properly to point to these files.
+Sizde Open edX için özel bir tema tasarlayabilirsiniz. Bunun için edX alt yapısına hakim olmanız gerekmektedir. Sakarya Üniversitesi için hazırlanmış olduğum şablonu dilerseniz sizde kullanabilirsiniz. Kurulum ile ilgili ayrıntılara aşağıdan ulaşabilirsiniz.
 
 ![Alt text](/default_theme_screenshot.jpg?raw=true "Open edX Default Theme Screenshot")
 
-Theme Authoring
+Şablon Hakkında
 ===============
 To customize your theme:
 - Fork this repository.
@@ -17,10 +14,3 @@ To customize your theme:
 - Upload your own image assets.
 - Edit the .scss file in static/sass/ and rename the file with your theme's name.
 - Edit the lms.envs.json file in edx-platform and set 'USE_CUSTOM_THEME' to true, and 'THEME_NAME' to your theme's name.
-
-
-License
-=======
-
-The code in this repo is licensed under the Apache 2.0 License.
-See [LICENSE.txt](LICENSE.txt) for more info.
