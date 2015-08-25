@@ -1,3 +1,13 @@
 .home>header .outer-wrapper {
     min-height: 400px;
 }
+
+header.global .user>.primary:last-child>a {
+    padding: 8px 10px;
+}
+
+
+.highlighted-courses .courses .course, .find-courses .courses .course {
+
+    border: 1px solid #d1d5d3;
+}
