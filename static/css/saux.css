@@ -17,3 +17,12 @@ header.global .user>.primary:last-child>a {
 .course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong {
     text-transform: none;
 }
+
+header.global .nav-global li a, header.global .nav-global div a {
+    color: #ffffff;
+}
+
+header.global.slim h2 {
+    color: #ffffff;
+    text-shadow: 0 1px 0 #1755a5;
+}
