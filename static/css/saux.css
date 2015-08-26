@@ -6,8 +6,14 @@ header.global .user>.primary:last-child>a {
     padding: 8px 10px;
 }
 
-
 .highlighted-courses .courses .course, .find-courses .courses .course {
 
     border: 1px solid #d1d5d3;
+}
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.add-to-cart {
+    text-transform: none;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong {
+    text-transform: none;
 }
