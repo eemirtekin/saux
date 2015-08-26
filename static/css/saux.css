@@ -1,5 +1,5 @@
 .home>header .outer-wrapper {
-    min-height: 400px;
+    min-height: 350px;
 }
 
 header.global .user>.primary:last-child>a {
@@ -26,3 +26,23 @@ header.global.slim h2 {
     color: #ffffff;
     text-shadow: 0 1px 0 #1755a5;
 }
+
+.wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
+    color: #ffffff;
+}
+
+.wrapper-footer footer#footer-openedx a {
+    color: #ef7f1a;
+}
+
+.dashboard .my-courses .course .details .enter-course, .verification-process .report-receipt-provider .provider-buttons-logos .complete-order button {
+    background-color: #ef7f1a;
+    color: #ffffff;
+}
+.course-info .container nav a, .course-info section.outside-app nav a, .course-info .wrapper-account-settings nav a, .course-info .view-profile .profile-self .wrapper-profile-field-account-privacy .u-field-account_privacy nav a, .view-profile .profile-self .wrapper-profile-field-account-privacy .course-info .u-field-account_privacy nav a, .course-info .view-profile .wrapper-profile-sections nav a, .view-profile .course-info .wrapper-profile-sections nav a {
+        text-transform: none;
+    }
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta>a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart {
+        text-transform: none;
+    }

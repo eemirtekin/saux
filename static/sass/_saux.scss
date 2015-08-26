@@ -43,11 +43,11 @@ $black-80: #585858;
 //  Font Assignment
 //-----------------
 
-$theme-sans-font: 'Source Sans';
+$theme-sans-font: 'Helvetica';
 $sans-serif: $theme-sans-font, $sans-serif;
 $body-font-family: $sans-serif;
 
-$theme-serif-font: 'Crimson Text';
+$theme-serif-font: 'Helvetica';
 $serif: $theme-serif-font, $serif;
 
 
@@ -70,12 +70,6 @@ $courseware-footer-border: 1px solid #dddddd;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
 
-$faded-hr-image-1: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-2: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-3: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
 $base-font-color: $black;
 $lighter-base-font-color: $black-80;
