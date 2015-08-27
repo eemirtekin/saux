@@ -1,0 +1,18 @@
+Sakarya Üniversitesi SAUX (Open edX)
+========
+Sakarya Üniversitesi Open edX platformu için şablon çalışmasıdır.
+
+Sizde Open edX için özel bir tema tasarlayabilirsiniz. Bunun için edX alt yapısına hakim olmanız gerekmektedir. Sakarya Üniversitesi için hazırlanmış olduğum şablonu dilerseniz sizde kullanabilirsiniz. Kurulum ile ilgili ayrıntılara aşağıdan ulaşabilirsiniz.
+
+![Alt text](/saux.jpg?raw=true "SAUX Sakarya Üniversitesi")
+
+Şablon Hakkında
+===============
+Temayı yüklemek için aşağıdaki adımları izleyiniz.:
+- Projeyi önce fork'layınız.
+- Daha sonra /edx/app/edxapp  dizini altına "themes" isimli bir klasör oluşturup themes klasörünün içine gidiniz.
+- git clone https://github.com/{username}/saux.git dosyaları theme klasörünün içine indiriyoruz.
+- Css ve görselleri kendinize göre düzenleyin.
+- Tema ismini değiştirmek için static/sass/ saux.scss adını tüm dosyalarda saux ifadesi geçen kısımları düzeltmelisiniz.
+- Özel şablonu edx te aktif etmek için /edx/app/edxapp klasörü altında bulunan lms.env.json dosyasında öncelikle 'USE_CUSTOM_THEME' parametresini True yapıp, 'THEME_NAME' kısmına ise tema isminizi yazmalısınız.
+- Open edX kurulu ve yapılandırması kompleks bir yapıda olmasına karşın çok kullanışlı bir öğrenme ortamı bize sunmaktadır.
