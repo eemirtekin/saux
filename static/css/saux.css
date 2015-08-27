@@ -60,7 +60,8 @@ header.global.slim h2 {
 
     .home>header .media .hero .play-intro {
         background-color: #ef7f1a;
-        background-image: transparent;
+        background-image: -webkit-linear-gradient(-90deg, #ef7f1a, #ef7f1a);
+        background-image: linear-gradient(-90deg, #ef7f1a, #ef7f1a);
         border: 0px solid rgba(255,255,255,0.8);
         height: 45px;
         margin-top: -25px;
