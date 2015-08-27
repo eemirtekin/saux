@@ -46,3 +46,14 @@ header.global.slim h2 {
 .course-info header.course-profile .intro-inner-wrapper .intro .main-cta>a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart {
         text-transform: none;
     }
+
+.home>header .media {
+        border: 1px solid #ffffff;
+        float: right;
+        width: 175px;
+        margin-top: -20px;
+    }
+    .home>header .title {
+        padding: 10px 15px 0px 20px;
+        margin-top: -10px;
+    }
