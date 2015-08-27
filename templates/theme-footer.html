@@ -52,14 +52,12 @@
 
       <nav class="nav-legal" aria-label="${_('Legal')}">
         <ul>
-          % for item_num, link in enumerate(footer['legal_links'], start=1):
           <li class="nav-legal-01">
               <a href="/privacy">${_("Privacy Policy")}</a>
             </li>
             <li class="nav-legal-02">
               <a href="/tos">${_("Terms of Service")}</a>
             </li>
-          % endfor
         </ul>
       </nav>
     </div>
