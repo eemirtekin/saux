@@ -16,3 +16,6 @@ Temayı yüklemek için aşağıdaki adımları izleyiniz.:
 - Tema ismini değiştirmek için static/sass/ saux.scss adını tüm dosyalarda saux ifadesi geçen kısımları düzeltmelisiniz.
 - Özel şablonu edx te aktif etmek için /edx/app/edxapp klasörü altında bulunan lms.env.json dosyasında öncelikle 'USE_CUSTOM_THEME' parametresini True yapıp, 'THEME_NAME' kısmına ise tema isminizi yazmalısınız.
 - Open edX kurulu ve yapılandırması kompleks bir yapıda olmasına karşın çok kullanışlı bir öğrenme ortamı bize sunmaktadır.
+- cd /edx/app/edxapp/edx-platform
+- source /edx/app/edxapp/edxapp_env
+- paver update_assets lms --settings=aws
