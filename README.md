@@ -19,3 +19,5 @@ Temayı yüklemek için aşağıdaki adımları izleyiniz.:
 - cd /edx/app/edxapp/edx-platform
 - source /edx/app/edxapp/edxapp_env
 - paver update_assets lms --settings=aws
+- sudo /edx/bin/supervisorctl restart edxapp:
+- sudo /edx/bin/supervisorctl restart edxapp_worker:
