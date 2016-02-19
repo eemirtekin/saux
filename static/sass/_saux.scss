@@ -141,3 +141,12 @@ $video-thumb-url: '../themes/saux/images/saux-play.png';
     margin: 0 !important;
     text-align: right;
 }
+
+
+.home>header {
+    height: 500px;
+
+    .outer-wrapper {
+        padding: 120px 0 !important;
+    }
+}
